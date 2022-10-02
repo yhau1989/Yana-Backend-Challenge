@@ -43,9 +43,26 @@ php74 -S localhost:2222
 
 ```
 
-Challenge Endpoints
+# Challenge Endpoints
 
 - [GET] http://localhost:2222
+![Screen Shot 2022-10-02 at 16 30 48](https://user-images.githubusercontent.com/12787927/193477123-efea26b4-7008-4ab9-b2b6-11ea1ad92d2c.png)
+
+
 - [GET,POST] http://localhost:2222/login
+![Screen Shot 2022-10-02 at 16 30 12](https://user-images.githubusercontent.com/12787927/193477095-9ed027bf-13b5-4967-bd3c-4d81ca5e14ed.png)
+
 - [POST] http://localhost:2222/usuarios/new
+
+```josn
+{ 
+  "email": "xxxxxx@gmail.com",
+  "password": "23123dsasdfs"
+}
+
+```
+
 - [GET] http://localhost:2222/usuarios/get_conversations/:idUser
+
+![Screen Shot 2022-10-02 at 16 33 14](https://user-images.githubusercontent.com/12787927/193477232-9f03ec29-f0c0-4b85-96d8-73c838730157.png)
+
